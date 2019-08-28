@@ -1,6 +1,6 @@
 {
-  "name": "runisland-ionic4",
-  "version": "4.7.4",
+  "name": "wreiske-ionic4",
+  "version": "4.8.1",
   "description": "Meteor Atmosphere package that automatically imports Ionic4 Web Components into your Client templates",
   "main": "package.js",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/runisland/meteor-ionic4.git"
+    "url": "git+https://github.com/wreiske/meteor-ionic4.git"
   },
   "keywords": [
     "meteor",
@@ -26,13 +26,13 @@
   "author": "Boris Seang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/runisland/ionic4/issues"
+    "url": "https://github.com/wreiske/meteor-ionic4/issues"
   },
-  "homepage": "https://github.com/runisland/ionic4#readme",
+  "homepage": "https://github.com/wreiske/meteor-ionic4#readme",
   "devDependencies": {
-    "@ionic/core": "4.7.4",
+    "@ionic/core": "^4.8.1",
     "cpy-cli": "^2.0.0",
     "mkdirp": "^0.5.1",
-    "rimraf": "^2.6.2"
+    "rimraf": "^3.0.0"
   }
 }

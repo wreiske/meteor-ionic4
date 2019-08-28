@@ -1,8 +1,8 @@
 # wreiske:ionic4
 
-[Meteor Atmosphere package](https://atmospherejs.com/runisland/ionic4) that automatically imports Ionic4 Web Components (i.e. [@ionic/core](https://www.npmjs.com/package/@ionic/core)) into your Client templates.
+[Meteor Atmosphere package](https://atmospherejs.com/wreiske/ionic4) that automatically imports Ionic4 Web Components (i.e. [@ionic/core](https://www.npmjs.com/package/@ionic/core)) into your Client templates.
 
-[![GitHub releases](https://img.shields.io/github/release/runisland/meteor-ionic4.svg?label=GitHub)](https://github.com/runisland/meteor-ionic4/releases)
+[![GitHub releases](https://img.shields.io/github/release/wreiske/meteor-ionic4.svg?label=GitHub)](https://github.com/wreiske/meteor-ionic4/releases)
 
 
 ## Quick Guide
@@ -34,12 +34,12 @@ where:
 ### Example apps
 
 - With Blaze:
-  - [Live demo](https://runisland.github.io/meteor-ionic4/blaze-flowrouter) (only client assets, no server, therefore routing is not fully functional)
-  - [Source code](https://github.com/runisland/meteor-ionic4/tree/master/examples/blaze-flowrouter)
+  - [Live demo](https://wreiske.github.io/meteor-ionic4/blaze-flowrouter) (only client assets, no server, therefore routing is not fully functional)
+  - [Source code](https://github.com/wreiske/meteor-ionic4/tree/master/examples/blaze-flowrouter)
 
 - With Vue:
-  - [Live demo](https://runisland.github.io/meteor-ionic4/vue) (only client assets, no server, therefore routing is not fully functional)
-  - [Source code](https://github.com/runisland/meteor-ionic4/tree/master/examples/vue)
+  - [Live demo](https://wreiske.github.io/meteor-ionic4/vue) (only client assets, no server, therefore routing is not fully functional)
+  - [Source code](https://github.com/wreiske/meteor-ionic4/tree/master/examples/vue)
 
 
 ## How does it work?
@@ -95,7 +95,7 @@ simply update the version in `devDependencies` field of the `package.json` file,
 
 ## License
 
-[![license](https://img.shields.io/github/license/runisland/meteor-ionic4.svg)](LICENSE)
+[![license](https://img.shields.io/github/license/wreiske/meteor-ionic4.svg)](LICENSE)
 
 `wreiske:ionic4` is distributed under the [MIT License](http://choosealicense.com/licenses/mit/) (Expat type), like Ionic and Meteor.
 
