@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/wreiske/meteor-ionic4#readme",
   "devDependencies": {
-    "@ionic/core": "^4.8.1",
+    "@ionic/core": "^4.11.5",
     "cpy-cli": "^2.0.0",
     "mkdirp": "^0.5.1",
     "rimraf": "^3.0.0"
