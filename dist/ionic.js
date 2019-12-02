@@ -1,6 +1,7 @@
 (function (doc) {
+  var isiOS = !!navigator.userAgent && /iPad|iPhone|iPod/.test(navigator.userAgent);
   var scriptElm = doc.createElement('script');
-  if (navigator.platform != 'iPhone') {
+  if (!isiOS) {
     scriptElm.setAttribute('type', 'module');
     if (Meteor.isCordova) {
       scriptElm.src = '/__cordova/packages/wreiske_ionic4/dist/ionic/ionic.esm.js';
@@ -10,7 +11,7 @@
     doc.head.appendChild(scriptElm);
   }
   scriptElm = doc.createElement('script');
-  if (navigator.platform != 'iPhone') {
+  if (!isiOS) {
     scriptElm.setAttribute('nomodule', '');
   }
   if (Meteor.isCordova) {
